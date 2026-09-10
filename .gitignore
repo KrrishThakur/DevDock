@@ -1,0 +1,55 @@
+# ===========================
+# DevDock — .gitignore
+# ===========================
+
+# ---- Frontend (Node / Vite / React) ----
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/coverage/
+
+# ---- Backend (Maven / Spring Boot / Java) ----
+backend/target/
+backend/.mvn/repository/
+backend/!.mvn/wrapper/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# ---- IDE / Editors ----
+.idea/
+.vscode/settings.json
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- OS ----
+.DS_Store
+ehthumbs.db
+
+# ---- Logs ----
+*.log
+logs/
+spring.log
+
+# ---- Docker ----
+.docker/
+
+# ---- Secrets / Env ----
+.env
+*.env
+application-secrets.yml
+application-local.yml
+application-prod.yml
